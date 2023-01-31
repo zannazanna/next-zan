@@ -1,3 +1,4 @@
 {
-  "extends": "next/core-web-vitals"
+  "env":{"browse":true, "node":true, "es6":true},
+  "extends": ["elint:recommended","next/core-web-vitals"]
 }

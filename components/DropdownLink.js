@@ -1,0 +1,12 @@
+import Link from 'next/link'
+import React from 'react'
+
+export default  function DropdownLink(props) {
+    let {href, children} = props
+  return (
+    <Link href={href}>
+       <span> {children} </span>
+    </Link>
+  )
+}
+
